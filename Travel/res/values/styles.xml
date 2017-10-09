@@ -1,0 +1,19 @@
+<!--
+  ~ Copyright 2013-2014 TeamViewer (www.teamviewer.com).  All rights reserved.
+  ~
+  ~ Please refer to the end user license agreement (EULA), the app developer agreement and license 
+  ~ information associated with this source code for terms and
+  ~ conditions that govern your use of this software.
+  -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="AppTheme" parent="android:Theme.Holo">
+        <item name="android:actionBarStyle">@style/TravelActionBar</item>
+        <item name="android:actionMenuTextAppearance">@android:style/TextAppearance.Holo.Medium</item>
+        <item name="android:actionMenuTextColor">@color/color_menu_text</item>
+    </style>
+
+    <style name="TravelActionBar" parent="android:Widget.Holo.ActionBar">
+        <item name="android:displayOptions">showCustom</item>
+    </style>
+</resources>
